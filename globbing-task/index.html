@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Globbing</title>
+</head>
+<body>
+    <div class="container">
+        <div class="back-to-previous-page">
+            <a href=""><img src="images/back-icon.png" alt=""></a>
+            <span>Մուտքագրել ծանրոց</span>
+        </div>   
+    </div>
+
+    
+    <div class="container top-message">
+        <div class="message-box">
+            <span>Խնդրում ենք նշել այն երկիրը որտեղ սպասում եք ծանրոց</span>
+        </div>
+        <div class="message-box-right-side">
+            <a href=""><img src="images/orange-play-icon.png" alt=""></a>
+            <a href=""><span>Ինչպես լրացնել</span></a> 
+        </div>
+    </div>
+  
+    <!--White main content-->
+    <div class="container white-main-content">
+        <div class="flags-box">
+
+            <div class="one-flag-box">
+                <img src="images/flag-usa.png" alt="ԱՄՆ">
+                <p>ԱՄՆ</p>
+                <input type="radio" id="usa" name="usa" value="usa">
+            </div>
+
+            <div class="one-flag-box">
+                <img src="images/flag-england.jpg" alt="Անգլիա">
+                <p>Անգլիա</p>
+                <input type="radio" id="england" name="england" value="england">
+            </div>
+
+            <div class="one-flag-box">
+                <img src="images/flag-italy.jpg" alt="Իտալիա">
+                <p>Իտալիա</p>
+                <input type="radio" id="italy" name="italy" value="italy">
+            </div>
+            
+            <div class="one-flag-box">
+                <img src="images/flag-dubai.png" alt="Դուբայ">
+                <p>Դուբայ</p>
+                <input type="radio" id="dubai" name="dubai" value="dubai">
+            </div>
+
+            <div class="one-flag-box">
+                <img src="images/flag-germany.jpg" alt="Գերմանիա">
+                <p>Գերմանիա</p>
+                <input type="radio" id="germany" name="germany" value="germany">
+            </div>
+
+            <div class="one-flag-box">
+                <img src="images/flag-china.png" alt="Չինաստան">
+                <p>Չինաստան</p>
+                <input type="radio" id="china" name="china" value="china">
+            </div>
+
+            <div class="one-flag-box">
+                <img src="images/flag-russia.png" alt="Ռուսաստան">
+                <p>Ռուսաստան</p>
+                <input type="radio" id="russia" name="russia" value="russia">
+            </div>
+        </div><!--flags box-->
+
+        <div class="container input-box">
+            <input class="input-areas" id="shop-number-input" type="text" value="Օնլայն խանութի տրամադրած բեռնակրման N">
+
+            <div class="row-inputs">
+                <input class="input-areas" type="text" value="Ապրանքի անուն">
+
+                <div class="cost">
+                    <input class="input-areas" type="text" value="Ընդհանուր գին">
+                    <select class="input-areas" name="currency" >
+                        <option value="usd">$</option>
+                        <option value="amd">AMD</option>
+                    </select>
+                </div>
+                
+                <span>0 Դ</span>
+            </div><!--row-inputs-->
+
+            <select class="input-areas" name="recipient" id="recipient-input">
+                <option value="one">Ընտրել ստացողին</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+            </select>
+
+            <div class="message-2-box">
+                <p>Առաքման եղանակը որով դուք պատվիրել եք, հիմք կընդունվի այստեղ փոփոխված կամ վերահաստատված եղանակը</p>
+            </div>
+
+            <div class="shipment-methods-box">
+                <div class="shipment-method">
+                    <input type="radio">
+                    <img src="images/airplane-icon.png" alt="">
+                    <p>Օդային առաքում <br> <span>1կգ / 4000դր․</span></p>
+                </div> 
+                <div class="shipment-method">
+                    <input type="radio">
+                    <img id="ship-icon" src="images/ship-icon.jpg" alt="">
+                    <p>Ծովային առաքում <br> <span>1կգ / 1200դր․ մին․ 12,000</span></p>
+                </div> 
+            </div>
+
+            <div class="ordered-services">
+                <select class="input-areas" name="recipient" id="orders-input">
+                    <option value="one">Պատվիրված ծառայություններ</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                </select>
+            </div>
+
+            <div class="sum">
+                <p>Ընդհամենը։ <span>3000 Դ</span></p>
+            </div>
+        </div><!--input box-->
+    </div><!--White main content-->
+
+    <div class="container">
+        <div class="btn-plus">
+            <img src="images/btn-plus.jpg" alt="">
+            <p>Հատուկ ծառայություններ</p>
+        </div>    
+    </div>
+
+    <div class="container">
+        <div class="button-box">
+            <button>Հաստատել</button>
+        </div>
+    </div>
+</body>
+</html>
